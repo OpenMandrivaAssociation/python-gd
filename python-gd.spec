@@ -29,6 +29,9 @@ module available.
 
 %prep
 %setup -q -n gdmodule-%{version}
+%ifnarch %{ix86}
+perl -pi -e 's|"/usr/local/lib"|"%{_libdir}"|;' Setup.py
+%endif
 
 %build
 
