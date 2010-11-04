@@ -36,6 +36,7 @@ perl -pi -e 's|"/usr/local/lib"|"%{_libdir}"|;' Setup.py
 %build
 
 %install
+PYTHONDONTWRITEBYTECODE= \
 %__python Setup.py install --root=%{buildroot} --record=INSTALLED_FILES
 
 %clean
