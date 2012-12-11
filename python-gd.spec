@@ -45,3 +45,24 @@ PYTHONDONTWRITEBYTECODE= \
 %files -f INSTALLED_FILES
 %defattr(-,root,root)
 %doc README
+
+
+%changelog
+* Sun Nov 06 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.56-3mdv2012.0
++ Revision: 722026
+- Rebuild with newer libpng.
+
+* Thu Nov 04 2010 Paulo Andrade <pcpa@mandriva.com.br> 0.56-2mdv2011.0
++ Revision: 593487
++ rebuild (emptylog)
+
+* Mon Aug 17 2009 Oden Eriksson <oeriksson@mandriva.com> 0.56-2mdv2010.0
++ Revision: 417295
+- rebuilt against libjpeg v7
+
+* Wed Mar 11 2009 Paulo Andrade <pcpa@mandriva.com.br> 0.56-1mdv2009.1
++ Revision: 353555
+- Initial import of python-gd 0.56.
+  A Python wrapper for the GD library.
+- python-gd
+
