@@ -6,10 +6,9 @@ Group:		Development/Python
 License:	BSD
 Summary:	Python GD module
 Version:	0.56
-Release:	%mkrel 3
+Release:	4
 Source:		http://newcenturycomputers.net/projects/download.cgi/gdmodule-%{version}.tar.gz
 URL:		http://newcenturycomputers.net/projects/gdmodule.html
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:	freetype2-devel
 BuildRequires:	gd-devel = 2.0.35-22 >= 2.0.23
