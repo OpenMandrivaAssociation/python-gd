@@ -12,11 +12,11 @@ URL:		http://newcenturycomputers.net/projects/gdmodule.html
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildRequires:	freetype2-devel
-BuildRequires:	libgd-devel >= 2.0.23
-BuildRequires:	libjpeg-devel
-BuildRequires:	libpng-devel
-BuildRequires:	libx11-devel
-BuildRequires:	libxpm-devel
+BuildRequires:	gd-devel = 2.0.35-22 >= 2.0.23
+BuildRequires:	jpeg-devel = 1:1.2.1-5:2013.0
+BuildRequires:	pkgconfig(libpng)
+BuildRequires:	pkgconfig(x11)
+BuildRequires:	pkgconfig(xpm)
 BuildRequires:	python-devel
 BuildRequires:	zlib-devel
 Requires:	gd >= 2.0.23
