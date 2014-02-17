@@ -2,7 +2,7 @@
 
 Name:		python-%{module}
 Version:	0.56
-Release:	5
+Release:	6
 Group:		Development/Python
 License:	BSD
 Summary:	Python GD module
@@ -10,14 +10,14 @@ Source:		http://newcenturycomputers.net/projects/download.cgi/gdmodule-%{version
 URL:		http://newcenturycomputers.net/projects/gdmodule.html
 
 BuildRequires:	freetype2-devel
-BuildRequires:	gd-devel = 2.0.35-22
-BuildRequires:	jpeg-devel = 1:1.2.1-5:2013.0
+BuildRequires:	gd-devel >= 2.0.35-22
+BuildRequires:	jpeg-devel
 BuildRequires:	pkgconfig(libpng)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xpm)
 BuildRequires:	python-devel
 BuildRequires:	zlib-devel
-Requires:	gd >= 2.0.23
+Requires:	gd >= 2.0.35
 Requires:	python
 
 %description
