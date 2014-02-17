@@ -9,7 +9,7 @@ Summary:	Python GD module
 Source:		http://newcenturycomputers.net/projects/download.cgi/gdmodule-%{version}.tar.gz
 URL:		http://newcenturycomputers.net/projects/gdmodule.html
 
-BuildRequires:	freetype2-devel
+BuildRequires:	pkgconfig(freetype2)
 BuildRequires:	gd-devel >= 2.0.35-22
 BuildRequires:	jpeg-devel
 BuildRequires:	pkgconfig(libpng)
