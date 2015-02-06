@@ -2,7 +2,7 @@
 
 Name:		python-%{module}
 Version:	0.56
-Release:	6
+Release:	7
 Group:		Development/Python
 License:	BSD
 Summary:	Python GD module
