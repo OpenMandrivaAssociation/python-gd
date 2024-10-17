@@ -7,7 +7,7 @@ Group:		Development/Python
 License:	BSD
 Summary:	Python GD module
 Source:		http://newcenturycomputers.net/projects/download.cgi/gdmodule-%{version}.tar.gz
-URL:		http://newcenturycomputers.net/projects/gdmodule.html
+URL:		https://newcenturycomputers.net/projects/gdmodule.html
 
 BuildRequires:	pkgconfig(freetype2)
 BuildRequires:	gd-devel >= 2.0.35-22
